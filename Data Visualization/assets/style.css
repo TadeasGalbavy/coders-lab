@@ -1,0 +1,42 @@
+/* Navbar container */
+.navbar {
+  background-color: #292929;
+  border-bottom: 1px solid #444;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding: 12px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Link ako tlačidlo */
+.nav-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 12px;
+  background-color: #3a3a3a;
+  color: #A3B18A;
+  text-decoration: none;
+  border: 1px solid #4a4a4a;
+  font-weight: 600;
+  transition: background-color .2s ease, border-color .2s ease, transform .05s ease;
+}
+
+.nav-btn:hover {
+  background-color: #4a4a4a;
+  border-color: #5a5a5a;
+}
+
+.nav-btn:active {
+  transform: translateY(1px);
+}
+
+/* Aktívna stránka zvýraznená */
+.nav-btn--active {
+  background-color: #A3B18A;
+  color: #1b1b1b;
+  border-color: #A3B18A;
+}
